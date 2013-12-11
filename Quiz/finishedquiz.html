@@ -1,0 +1,78 @@
+<!DOCTYPE>
+<html lang="en">
+	<head> 
+	
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="finishedquiz_styles.css">
+	</head>
+	<body>
+		<!-- Facebook and Twitter Code -->
+		<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			<!-- End of Facebook and Twitter -->
+		<!-- End of Quiz Popup -->
+		<div class="popup">
+			<div class="textbox">
+				<h1>Welcome to Winestyr!</h1>
+					<p>You'll recieve recommendations from our experts within 24 hours. In the meantime, share the quiz with your friends or get started with our bestselling wine pack.</p>
+				<h4><a href="http://winestyr.com/wine">Browse</a></h4>
+				<h3>Share This Quiz</h3>
+				<div class="fb-share-button" data-href="http://developers.facebook.com/docs/plugins/" data-type="button_count"></div>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-via="Winestyr">Tweet</a>
+			</div>
+		</div>
+		<!-- Body HTML -->
+		<h1>The Winestyr Wine Quiz</h1>
+				<p>You're almost finished!</p>
+			<h2>6. What's your level of experience with wine?</h2>
+				<select name="level">
+				  <option value="Beginner" selected>Beginner</option>
+				  <option value="Moderate">Moderate</option>
+				  <option value="Expert">Expert</option>
+				</select>
+			<h2 class="Seven">7. Which type of wine do you prefer?</h2>
+				<select name="type">
+				  <option value="Red" selected>Red</option>
+				  <option value="White">White</option>
+				  <option value="Both">Both</option>
+				</select>
+			<h2 class="Age">8. I'm 21+<input type="checkbox" name="day" value="Friday"></h2>
+		<div class="Laststep">
+			<h1>Last Step: Get Your Recommendations</h1>
+					<img src="facebooklogin.png">
+				<p>or</p>
+			<div class="signup">
+			<fieldset>
+				  <legend>SIGN UP</legend>
+				  <input type="text" name="email" id="email" placeholder="e-mail">
+				  <input type="text" name="password" id="password" placeholder="password">
+				  <input type="text" name="confirmpassword" id="confirmpassword" placeholder="confirm password">
+				  <input type="text" name="zipcode" id="zipcode" placeholder="zip code">
+			</fieldset>
+		</div>
+		<div class="login">
+			<fieldset>
+				  <legend>LOGIN</legend>
+				  <input type="text" name="email" id="email" placeholder="e-mail">
+				  <input type="text" name="password" id="password" placeholder="password">
+			</fieldset>
+		</div>
+		<div class="Submit">
+			<h3><a href="#">Get Recommondations</a></h3>
+		</div>
+	<h4>"...Allowing you access to the 83 percent of wineries that you can't find in local stores."</h4>
+	<img src="techcrunch.png">
+	</div>
+<script language="JavaScript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="finishedquizscript.js"></script>	
+
+	</body>
